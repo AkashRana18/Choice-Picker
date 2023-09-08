@@ -134,3 +134,9 @@ textarea:focus {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        text-align: center; /* Center text within the container */
+    }
+}
