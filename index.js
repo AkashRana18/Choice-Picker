@@ -7,7 +7,7 @@ textarea.focus();
 // Function to create tags
 function createTags(input) {
     const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
-    
+
     tagsEl.innerHTML = ''
 
     tags.forEach(tag => {
@@ -40,7 +40,7 @@ function randomSelect() {
 
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
-        
+
         if (randomTag !== undefined) {
             highlightTag(randomTag)
 
@@ -77,7 +77,7 @@ textarea.addEventListener('keyup', (e) => {
 
 // Event listener for the button
 pickButton.addEventListener('click', () => {
-    randomSelect()  
+    randomSelect()
     // Clear the text from the textarea
     textarea.value = '';
 });

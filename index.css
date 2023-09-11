@@ -32,8 +32,9 @@ body {
     transition: opacity 0.3s ease-in-out;
 
 }
+
 .app-heading:hover {
-    opacity: 1; /* Increase opacity on hover */
+    opacity: 1;
 }
 
 /* Responsive adjustments for screens smaller than 768px */
@@ -64,6 +65,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-bottom: 10px; */
 
 }
 
@@ -137,6 +139,72 @@ textarea:focus {
 
 @media (max-width: 768px) {
     .container {
-        text-align: center; /* Center text within the container */
+        text-align: center;
     }
+}
+
+/* footer */
+
+/* Add this CSS to your existing styles or create a new CSS file if you prefer */
+
+.footer {
+    background-image: url("BvX7VW.jpeg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.fa-brands {
+    transition: 0.5s linear;
+}
+
+.fa-github {
+    background-color: #000;
+    border-radius: 50px;
+}
+
+.fa-instagram:hover {
+    color: #d62976;
+}
+
+.fa-linkedin:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-github:hover {
+    color: #000;
+    border: 2px solid #fff;
+    background-color: #fff;
 }
