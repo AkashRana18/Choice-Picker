@@ -55,10 +55,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## Contact Us
 
 - Akash Rana
-- [Email](akashmanu2003@gmail.com)
+- Email (akashmanu2003@gmail.com)
 - [Twitter](https://twitter.com/Akash08_18)
 - [LinkedIn](https://www.linkedin.com/in/akashrana18)
 - [Instagram](https://www.instagram.com/codewithakash/)
-
-- 
 
