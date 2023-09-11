@@ -1,8 +1,18 @@
 # Choice Picker App
 
+## Table of Contents
+[Description](#description)
+[Features](#features)
+[Technologies Used](#technologies-used)
+[Demo](#demo)
+[Usage](#usage)
+[Screenshots](#screenshots)
+[Contributing](#contributing)
+[Contact Us](#contact-us)
+
+
 A choice picker app which will help you to make a choice when you are confused.. So what are you waiting for go check out now ⤵️
 
-![App Screenshot](choice.png)
 
 ## Description
 
