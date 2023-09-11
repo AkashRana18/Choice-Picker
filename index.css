@@ -140,6 +140,7 @@ textarea:focus {
 @media (max-width: 768px) {
     .container {
         text-align: center;
+        margin-bottom: 150px;
     }
 }
 
@@ -157,16 +158,20 @@ textarea:focus {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
+
+
 }
 
 .footer-content {
     margin: 0 auto;
+
 }
 
 .footer p {
     text-align: center;
     margin: 10px;
+    overflow: visible; /* Show full content on smaller screens */
+    text-overflow: clip;
 }
 
 
